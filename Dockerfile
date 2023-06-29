@@ -4,4 +4,4 @@ COPY package.json /app
 RUN npm install
 COPY . /app
 CMD node end_Modu_q2.js
-EXPOSE 9999
+EXPOSE 9000
