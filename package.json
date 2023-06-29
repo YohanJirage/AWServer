@@ -1,0 +1,17 @@
+{
+  "name": "awserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "end_Modu_q2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YohanJirage/AWServer.git"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
