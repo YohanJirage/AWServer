@@ -4,7 +4,7 @@ var app = exp();
 
 app.use(bp.urlencoded({extended: false }))
 
- app.use(express.static(path.join(__dirname,'public')));
+ app.use(exp.static(path.join(__dirname,'public')));
 
 app.get('/getForm',function(req,resp){
     resp.sendFile(__dirname+"/getForm.html")
