@@ -11,7 +11,7 @@ app.get('/getForm',function(req,resp){
 })
 
 app.post('/getDataTable',function(req,resp){
-     console.log("zatu shivam");
+     
     var name = req.body.name1;
     var bdate = req.body.bdate1;
     var email = req.body.email1;
