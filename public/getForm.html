@@ -7,13 +7,13 @@
    <script>
         $(document).ready(function(){  
             $("#bt").click(function(){
-                alert("in");
+                // alert("in");
                 var url = "http://15.206.93.226:9000/getDataTable"
                 var name = $('#name').val();
                 var bdate = $('#bdate').val();
                 var email = $('#email').val();
                 var qual = $('#qual').val();
-                  alert("in")
+                  // alert("in")
                 $.post(url, { name1 : name, bdate1 : bdate, email1 : email, qual1 : qual},function(data,status){
                     if(status=="success")
                         $("#table").html(data);
