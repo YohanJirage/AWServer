@@ -7,7 +7,7 @@ app.use(bp.urlencoded({extended: false }))
  app.use(exp.static("public"));
 
 app.get('/getForm',function(req,resp){
-    resp.sendFile(__dirname+"/public/getForm.html")
+    resp.sendFile(__dirname+"/getForm.html")
 })
 
 app.post('/getDataTable',function(req,resp){
