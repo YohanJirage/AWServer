@@ -1,7 +1,7 @@
 FROM node:7
-WORKDIR /AWServer
-COPY package.json /AWServer
+WORKDIR /app
+COPY package.json /app
 RUN npm install
-COPY . /AWServer
+COPY . /app
 CMD node end_Modu_q2.js
 EXPOSE 9000
